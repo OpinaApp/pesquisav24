@@ -25,6 +25,7 @@ document.getElementById('formularioPesquisa').addEventListener('submit', functio
         avaliacaoGoverno: document.getElementById('avaliacaoGoverno').value,
         candidatosDisco: document.getElementById('candidatosDisco').value,
         semForssel: document.getElementById('semForssel').value,
+        rejeicaoVoto: document.getElementById('rejeicaoVoto').value,
         problemaBairro: document.getElementById('problemaBairro').value,
         escolhaVereador: document.getElementById('escolhaVereador').value,
         telefone: document.getElementById('telefone').value
@@ -46,6 +47,7 @@ document.getElementById('formularioPesquisa').addEventListener('submit', functio
     document.getElementById('avaliacaoGoverno').value = '';
     document.getElementById('candidatosDisco').value = '';
     document.getElementById('semForssel').value = '';
+    document.getElementById('rejeicaoVoto').value = '';
     document.getElementById('problemaBairro').value = '';
     document.getElementById('escolhaVereador').value = '';
     document.getElementById('telefone').value = '';
